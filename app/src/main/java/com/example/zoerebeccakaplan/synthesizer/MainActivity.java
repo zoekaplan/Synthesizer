@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         createMediaPlayers();
     }
 
+    //type a comment
+
     private void createMediaPlayers() {
         aNote = MediaPlayer.create(this, R.raw.scalea);
         bNote = MediaPlayer.create(this, R.raw.scaleb);
